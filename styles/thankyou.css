@@ -1,0 +1,54 @@
+:root {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+h1,
+p,
+body {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #3d2ca0;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 80px;
+  font-weight: bolder;
+  text-align: center;
+}
+div.thankyou {
+  margin-bottom: 400px;
+}
+a.blue {
+  text-decoration: none;
+  color: #2ca087;
+  transition: color 500ms;
+}
+
+a.blue:hover {
+  color: rgb(0, 204, 255);
+  transition: color 500ms;
+}
+a.green {
+  text-decoration: none;
+  color: rgb(0, 204, 255);
+  transition: color 500ms;
+}
+
+a.green:hover {
+  color: #2ca087;
+  transition: color 500ms;
+}
+div.github {
+  font-size: 60px;
+  display: block;
+}

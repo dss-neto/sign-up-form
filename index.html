@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="root-container">
+      <div class="background-section">
+        <div class="page-watermark">
+          <img src="assets/odin-lined.png" alt="Odin logo" />
+          <p>ODIN</p>
+        </div>
+        <p class="credits">
+          Photo by <a href="https://unsplash.com/@von_co">Ivana Cajina</a> on
+          <a href="https://unsplash.com/photos/milky-way-asuyh-_ZX54"
+            >Unsplash</a
+          >
+        </p>
+      </div>
+      <div class="content-section">
+        <div class="text-container">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <i>now</i> to get started.
+            <br />
+            <br />You <i>know</i> you want to.
+          </p>
+        </div>
+        <div class="form-container">
+          <form class="signin-form" action="">
+            <div class="inputs-container">
+              <h1>Let's do this!</h1>
+              <div class="form-separator">
+                <label for="first-name">
+                  FIRST NAME <span class="required"></span
+                ></label>
+                <input type="text" id="first-name" name="first-name" required />
+              </div>
+              <div class="form-separator">
+                <label for="last-name"> LAST NAME </label>
+                <input type="text" id="last-name" name="last-name" />
+              </div>
+              <div class="form-separator">
+                <label for="email"> EMAIL <span class="required"></span></label>
+                <input type="email" name="email" id="email" required />
+              </div>
+              <div class="form-separator">
+                <label for="phone-number"> PHONE NUMBER </label>
+                <input type="tel" name="phone-number" id="phone-number" />
+              </div>
+              <div class="form-separator">
+                <label for="password">
+                  PASSWORD <span class="required"></span
+                ></label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  minlength="8"
+                  required
+                />
+              </div>
+              <div class="form-separator">
+                <label for="confirm-password">
+                  CONFIRM PASSWORD <span class="required"></span
+                ></label>
+                <input
+                  type="password"
+                  name="confirm-password"
+                  id="confirm-password"
+                  minlength="8"
+                  required
+                />
+              </div>
+            </div>
+            <div class="submit-container">
+              <div class="submit-content">
+                <a href="thanks.html"
+                  ><button class="submit">Create Account</button></a
+                >
+                <p class="login">
+                  Already have an account?
+                  <a href="thanks.html" class="blue">Log in</a>
+                </p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
