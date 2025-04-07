@@ -174,7 +174,7 @@ div.inputs-container {
 }
 div.inputs-content {
   display: flex;
-  flex: 1 0;
+  flex: 1;
   gap: 25px;
   margin: 3% 15% 5% 5%;
   background-color: #ffffff;
