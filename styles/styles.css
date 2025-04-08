@@ -265,3 +265,19 @@ a.blue:hover {
   color: #3d2ca0;
   text-decoration: underline;
 }
+@media (max-width: 1386px) {
+  div.root-container {
+    flex-flow: column;
+    min-height: 0px;
+    min-width: 951px;
+  }
+  div.background-section {
+    padding-bottom: 100px;
+  }
+  div.text-container {
+    padding: 60px 0px;
+  }
+  div.submit-container {
+    padding: 60px 0px;
+  }
+}
