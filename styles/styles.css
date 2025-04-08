@@ -280,6 +280,10 @@ a.blue:hover {
   div.text-container {
     padding: 60px 0px;
   }
+  div.text-container p {
+    text-align: center;
+    margin: 60px;
+  }
   div.inputs-content {
     text-align: center;
     justify-content: center;
