@@ -98,7 +98,7 @@ div.background-section {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  background: center/cover url(../assets/ivana-cajina-asuyh-_ZX54-unsplash.jpg);
+  background: center/cover url(../assets/ivana-compressed.jpg);
   flex: 1 0;
 }
 p.credits,
