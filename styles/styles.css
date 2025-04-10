@@ -90,9 +90,6 @@ div.root-container {
   display: flex;
   flex: 1 0;
   font-family: helvetica, arial, sans-serif;
-  /*
-  min-height: 715px;
-  min-width: 1387px;*/
 }
 div.background-section {
   display: flex;
